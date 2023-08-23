@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box1,.box2,.box3,.box4,.box5,.box6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+} 
+nav{
+    position: fixed;
+
+    width: 100vw;
+    background-color:gray;
+}
+nav li{
+    padding: 5px 0;
+}
+nav li a{
+    font-weight: lighter;
+    font-size: 15px;
+    gap: 20px;
+}
+.cards2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+nav .NAV{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#hero{
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(./../img/company-profile1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .card1 h1{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Mizra', cursive;
+    background-color: #0000002c;
+
+}
+
+#service,#teachers,#contact{
+    background-color:peachpuff;
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width:185px
+
+}
+
+
+.plan{
+    background-color:lightsalmon;
+    padding: 10px;
+    align-items: flex-start;
+} 
+.plan h2{
+    align-self: center;
+}
+.plan p{
+    text-align: start;
+}
+.plan ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+.cards{
+    background-color:darksalmon;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 185px;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.M{
+    margin: 10px;
+    align-self: center;
+    font-family: 'Mizra', cursive;
+    background-color:black;
+    font-size:12px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    width: 50%;
+}
+
+
+.footer{
+    height: 30px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+h1,h2{
+    font-family: 'Mizra', cursive;
+}
+main h1{
+    font-size:15px;
+}
+main h2{
+    font-size: 15px;
+}
+p,label{
+    font-family: 'Mizra', cursive;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Mizra', cursive;
+}
+ul{
+    list-style: none;
+}
+main section{
+    min-height: 350px;
+    padding: 30px 30px;
+}
+.picture{
+    width: 150px;
+}
+
+.picture1{
+    width: 185px;
+}
+
+
+    
+
